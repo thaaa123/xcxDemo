@@ -1,0 +1,5 @@
+<!--components/like/index.wxml-->
+<view class='like' bind:tap='onLike' data-id='1'>
+  <image src='{{like ? yesSrc : noSrc}}'></image>
+  <text class='font-size-9 color-bbb'>{{num}}</text>
+</view>

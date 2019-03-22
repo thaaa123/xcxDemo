@@ -1,0 +1,25 @@
+.classic {
+  position: relative;
+}
+
+.classic .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.classic .header .right {
+  display: flex;
+}
+
+.classic .header .right .like {
+  margin-left: 30rpx;
+}
+
+.classic .title {
+  /* margin-top: 150rpx; */
+  width: 750rpx;
+  position: fixed;
+  bottom: 50rpx;
+}

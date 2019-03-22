@@ -1,0 +1,15 @@
+<view class='classic'>
+  <view class='header'>
+    <view class='left'>
+      <v-apsolid index="{{classic.index}}" />
+    </view>
+    <view class='right'>
+      <v-like bind:like="onLike" like="{{classic.like_status}}" num="{{classic.fav_nums}}"/>
+      <v-share class="like" />
+    </view>
+  </view>
+  <v-movie imgSrc="{{classic.image}}" content="{{classic.content}}" />
+  <view class="title">
+    <v-navi title="{{classic.title}}" />
+  </view>
+</view>

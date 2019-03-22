@@ -1,0 +1,23 @@
+@import '/util/util.wxss';
+.navi {
+  display: flex;
+  justify-content: center;
+}
+.navi .navi-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 590rpx;
+  /* padding: 15rpx 30rpx; */
+  background-color: #f7f7f7;
+}
+
+.navi image {
+  width: 23rpx;
+  height: 34rpx;
+  padding: 15rpx 30rpx;
+}
+
+.navi .desalination {
+  opacity: 0.3
+}

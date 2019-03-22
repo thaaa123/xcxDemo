@@ -1,0 +1,24 @@
+@import '/util/util.wxss';
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie .poster {
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.movie .movieImg {
+  position: relative;
+  right: 310rpx;
+  bottom: 62rpx;
+  width: 46rpx;
+  height: 146rpx;
+}
+
+.movie .content {
+  max-width: 560rpx;
+  line-height: 1.6;
+}

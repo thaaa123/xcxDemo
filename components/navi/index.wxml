@@ -1,0 +1,7 @@
+<view class="navi">
+  <view class='navi-container'>
+    <image class="{{first ? 'desalination' : ''}}" bind:tap="previous" src="./images/previous@2x.png"/>
+    <text class='font-size-14'>{{title}}</text>
+    <image class="{{last ? 'desalination' : ''}}" bin:tap="next" src="./images/next@2x.png"/>
+  </view>
+</view>

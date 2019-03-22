@@ -1,0 +1,12 @@
+<view class='apsolid'>
+  <view class='index-apsolid'>
+    <text class='font-size-12'>No.</text>
+    <text class='font-size-20'>{{strIndex}}</text>
+    <view class='line'></view>
+  </view>
+  <!-- <view class='date-apsolid'>
+    <text class='font-size-16'>{{month}}</text>
+    <text class='font-size-12'>{{year}}</text>
+  </view> -->
+
+</view>

@@ -1,0 +1,11 @@
+/* components/apsolid/index.wxss */
+@import '/util/util.wxss';
+.apsolid {
+  display: flex;
+  /* align-items: baseline; */
+}
+
+.apsolid .date-apsolid {
+  display: flex;
+  flex-direction: column;
+}

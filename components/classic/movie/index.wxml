@@ -1,0 +1,5 @@
+<view class='movie'>
+  <image class='poster' src='{{imgSrc}}' />
+  <image class='movieImg' src='./images/movie@2x.png' />
+  <view class='content font-size-17 color-0f'>{{content}}</view>
+</view>

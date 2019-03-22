@@ -1,0 +1,14 @@
+/* components/like/index.wxss */
+@import '/util/util.wxss'
+.like {
+}
+
+.like image {
+  width: 26rpx;
+  height: 26rpx;
+}
+
+.like text {
+  margin-left: 10rpx;
+  vertical-align: text-top;
+}

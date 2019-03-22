@@ -1,0 +1,9 @@
+/* components/share/index.wxss */
+.share {
+
+}
+
+.share .img {
+  width: 32rpx;
+  height: 32rpx;
+}

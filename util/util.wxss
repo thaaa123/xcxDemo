@@ -1,0 +1,61 @@
+/* fontSize */
+.font-size-29 {
+  font-size: 29px
+}
+
+.font-size-27 {
+  font-size: 27px
+}
+
+.font-size-17 {
+  font-size: 17px
+}
+
+.font-size-16 {
+  font-size: 16px
+}
+
+.font-size-14 {
+  font-size: 14px
+}
+
+.font-size-12 {
+  font-size: 12px
+}
+
+.font-size-10 {
+  font-size: 10px
+}
+
+.font-size-9 {
+  font-size: 9px;
+}
+
+/* fontColor */
+.color-999 {
+  color: #999
+}
+
+.color-666 {
+  color: #666
+}
+
+.color-bbb {
+  color: #bbb
+}
+
+.color-0f {
+  color: #0f0f0f
+}
+
+.color-01 {
+  color: #010101
+}
+
+.color-f7 {
+  color: #f7f7f7
+}
+
+.color-fff {
+  color: #fff
+}
