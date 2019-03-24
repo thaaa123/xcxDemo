@@ -18,7 +18,6 @@
 }
 
 .classic .title {
-  /* margin-top: 150rpx; */
   width: 750rpx;
   position: fixed;
   bottom: 50rpx;

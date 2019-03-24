@@ -10,6 +10,7 @@
   </view>
   <v-movie imgSrc="{{classic.image}}" content="{{classic.content}}" />
   <view class="title">
-    <v-navi title="{{classic.title}}" />
+    <v-navi bind:previous="onPrevious" bind:next="onNext"
+    first="{{first}}" last="{{last}}" title="{{classic.title}}" />
   </view>
 </view>

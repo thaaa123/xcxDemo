@@ -15,7 +15,7 @@
 .navi image {
   width: 23rpx;
   height: 34rpx;
-  padding: 15rpx 30rpx;
+  padding: 20rpx 30rpx;
 }
 
 .navi .desalination {

@@ -6,7 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    classic: {}
+    classic: {},
+    first: true,
+    last: false
   },
 
   /**
@@ -36,5 +38,13 @@ Page({
     classicApi.like(behavior, parameter).then(res => {
       this.getLatset()
     })
+  },
+  // 上一页
+  onPrevious: function () {
+    console.log('shangyiye')
+  },
+  // 下一页
+  onNext: function () {
+    console.log('next')
   }
 })
