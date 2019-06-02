@@ -27,11 +27,11 @@ Component({
    */
   methods: {
     previous: function () {
-      if (!this.properties.first)
+      if (!this.properties.last)
         this.triggerEvent('previous', {})
     },
     next: function () {
-      if (!this.properties.last)
+      if (!this.properties.first)
         this.triggerEvent('next', {})
     }
   }

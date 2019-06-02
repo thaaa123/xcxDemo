@@ -21,7 +21,8 @@ Page({
   getLatset: function () {
     classicApi.latest().then(res => {
       this.setData({
-        classic: res
+        classic: res,
+        last: res.index === 1
       })
     })
   },
@@ -39,12 +40,30 @@ Page({
       this.getLatset()
     })
   },
-  // 上一页
+  // 上一期刊
   onPrevious: function () {
-    console.log('shangyiye')
+    let param = {index: this.data.classic.index}
+    classicApi.getPrevious(param).then(res => {
+      this.setData({
+        classic: res,
+        first: false,
+        last: res.index === 1
+      })
+    })
   },
-  // 下一页
+  // 下一期刊
   onNext: function () {
-    console.log('next')
+    let param = {index: this.data.classic.index}
+    classicApi.getNext(param).then(res => {
+      this.setData({
+        classic: res,
+        last: false
+      })
+      classicApi.latest().then(res => {
+        this.setData({
+          first: res.index === this.data.classic.index
+        })
+      })
+    })
   }
 })

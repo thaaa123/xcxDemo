@@ -1,8 +1,18 @@
 import request from '../../util/request.js'
 
-function latest(parameter = {}) {
+function latest(param = {}) {
   let url = 'classic/latest'
-  return request.getJson(url, parameter)
+  return request.getJson(url, param)
+}
+
+function getPrevious(param = {}){
+  let url = `classic/${param.index}/previous`
+  return request.getJson(url, param)
+}
+
+function getNext(param = {}){
+  let url = `classic/${param.index}/next`
+  return request.getJson(url, param)
 }
 
 function like(behavior, parameter = {}) {
@@ -10,4 +20,4 @@ function like(behavior, parameter = {}) {
   return request.postJson(url, parameter)
 }
 
-export default { latest, like }
+export default { latest, like, getPrevious, getNext }
